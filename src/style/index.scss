@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+// .App{
+//  font-family: var(--Anton);
+// }
+
+::-webkit-scrollbar{
+    width: 12px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: red;
+  }
+@import "./setting.scss";
+@import "./components/Accueil/Home_menu.scss";
+
+
+
+
